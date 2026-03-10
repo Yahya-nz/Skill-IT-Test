@@ -1,0 +1,18 @@
+.filter-bar { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+.search-input {
+  flex: 1; min-width: 200px;
+  padding: 9px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+  background: var(--surface);
+  outline: none;
+  transition: var(--transition);
+  color: var(--text-primary);
+}
+.search-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(79,70,229,.08); }
+.filter-select { padding: 9px 12px; border: 1.5px solid var(--border); border-radius: var(--radius-sm); font-size: 0.875rem; background: var(--surface); color: var(--text-primary); outline: none; cursor: pointer; min-width: 140px; }
+.house-number { font-weight: 700; font-size: 0.95rem; color: var(--accent); }
+.resident-chip { font-weight: 500; color: var(--text-primary); }
+.empty-resident { color: var(--text-muted); }
+.empty-state { text-align: center; color: var(--text-muted); font-size: 0.875rem; padding: 24px 0; }
